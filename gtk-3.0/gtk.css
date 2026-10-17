@@ -2386,6 +2386,11 @@ XfdesktopIconView.view:backdrop {
   color: #FFFFFF;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
 }
+XfdesktopIconView .view:selected:backdrop,
+XfdesktopIconView.view:selected:backdrop {
+  background-color: #9999FF; /* или transparent, если подсветка не нужна */
+  color: #FFFFFF;
+}
 XfdesktopIconView .view:active {
     color: #FFFFFF; }
 XfdesktopIconView:active {
