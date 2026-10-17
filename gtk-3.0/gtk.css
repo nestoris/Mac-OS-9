@@ -2380,7 +2380,13 @@ XfdesktopIconView .view {
   color: #FFFFFF;
   background-color: transparent;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.8); }
-  XfdesktopIconView .view:active {
+XfdesktopIconView .view:backdrop,
+XfdesktopIconView.view:backdrop {
+  background-color: transparent;
+  color: #FFFFFF;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+XfdesktopIconView .view:active {
     color: #FFFFFF; }
 XfdesktopIconView:active {
   color: #FFFFFF;
